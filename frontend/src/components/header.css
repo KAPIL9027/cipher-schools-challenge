@@ -1,0 +1,32 @@
+.header-logo{
+    width: 35px;
+    height: 35px;
+}
+
+.header-heading{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.header{
+    display: flex;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0 1.5rem;
+}
+
+.header-brand{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.header-left-browse{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
