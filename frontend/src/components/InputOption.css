@@ -1,0 +1,25 @@
+.input-option-heading{
+    margin: 0;
+    color: gray;
+    margin-bottom: 0.5rem;
+}
+
+.image-icon{
+    color: gray;
+}
+
+.input__option__container{
+    display: flex;
+    background-color: white;
+    width: 20rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.input__text{
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+}

@@ -40,7 +40,11 @@ function Header() {
          <div className="header__right__icons">
            <NotificationsNoneOutlinedIcon className="notification" />
            <Avatar className="avatar"/>
+           <div className="cipher-points">
            <img src={cipher} alt="cipher-points" className="right-icons" />
+           <p style={{color: "orange",fontWeight: "bold",fontSize:"1rem"}}>200</p>
+           </div>
+           
          </div>
         </div>
     </div>

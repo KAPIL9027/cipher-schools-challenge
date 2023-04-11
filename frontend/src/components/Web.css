@@ -1,0 +1,31 @@
+
+.web-info {
+    margin: 0 4rem;
+    padding-bottom: 1.6rem;
+    border-bottom: 1px solid lightgray;
+}   
+.web-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.web-btn{
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #f3912e;
+    height: 1.75rem;
+    width: 5rem;
+    cursor: pointer;
+}
+
+.web-btn:hover{
+    background-color: #f4a352;
+}
+.web-bottom{
+    display: flex;
+    gap: 1rem;
+
+    flex-wrap: wrap;
+}
