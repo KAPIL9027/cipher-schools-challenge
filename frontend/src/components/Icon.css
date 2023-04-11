@@ -1,14 +1,13 @@
 .image__option{
     display: flex;
     align-items: center;
-    color: gray;
-    gap: 0.7rem;
-    font-size: 1.25rem;
+    color: black;
+    gap: 0.5rem;
+    font-size: 1rem;
 }
 
 .icon{
-    width: 20px;
-    height: 20px;
-    color: gray;
+    width: 20px !important;
+    height: 20px !important;
 }
 

@@ -1,8 +1,15 @@
 import React from 'react'
 import './header.css';
 import logo from './asset0.png';
-import ExploreIcon from '@mui/icons-material/Explore';
+import ExploreOutlinedIcon from '@mui/icons-material/ExploreOutlined';
 import Icon from './Icon.jsx';
+import SearchIcon from '@mui/icons-material/Search';
+import TuneOutlinedIcon from '@mui/icons-material/TuneOutlined';
+import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined';
+import { Avatar } from '@mui/material';
+import cipher from './asset1.svg';
+import change from './changeTheme.png';
+
 function Header() {
   return (
     <div className="header">
@@ -15,15 +22,26 @@ function Header() {
         <h3 className="header-heading">CipherSchools</h3>
         </div>
         <div className="header-left-browse">
-        <Icon ImageIcon={ExploreIcon} title="Browse"/>
-        <svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <Icon ImageIcon={ExploreOutlinedIcon} title="Browse"/>
+        <svg className="down-arrow" width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M5.08847 6.59357C5.86888 7.37116 7.13117 7.37121 7.91165 6.59369L12.2331 2.28855C12.6563 1.867 12.6565 1.18191 12.2337 0.760065C11.8126 0.339954 11.1309 0.339825 10.7096 0.759775L7.91215 3.5485C7.13155 4.32666 5.86852 4.32659 5.08801 3.54835L2.2909 0.759393C1.86986 0.33958 1.18856 0.339433 0.767341 0.759062C0.344011 1.18079 0.343982 1.86624 0.767277 2.288L5.08847 6.59357Z" fill="#808191"/>
 </svg>
         </div>
         
         </div>
         <div className="header-right">
-
+         <div className="search__input__container">
+          <div className="search__input">
+          <SearchIcon className="search-icon"/>
+         <input placeholder="Search and Learn" className="header-right-input" type="text"/>
+          </div>
+         <TuneOutlinedIcon/>
+         </div>
+         <div className="header__right__icons">
+           <NotificationsNoneOutlinedIcon className="notification" />
+           <Avatar className="avatar"/>
+           <img src={cipher} alt="cipher-points" className="right-icons" />
+         </div>
         </div>
     </div>
   )
