@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import './Interest.css'
 function Interest() {
-  
+  const [interests,setInterests] = useState(["Web Development","Android Development","Blockchain Development"]);
   return (
     <div className="interest-info">
     <div className="interest-top">
@@ -9,10 +9,12 @@ function Interest() {
         <button className="interest-btn">Change</button>
     </div>
     <div className="interest-bottom">
-       <div className="interest">Web Development</div>
-       <div className="interest">Android Development</div>
-       <div className="interest">Blockchain Development</div>
-       <div className="interest">Artifical Intelligence</div>
+
+      {
+        interests.map((interest)=>
+        <div className="interest">{interest}</div>
+        )
+      }
     </div>
 </div>
   )

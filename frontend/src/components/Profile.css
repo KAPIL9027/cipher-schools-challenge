@@ -47,6 +47,12 @@
 
 .profile-user{
     background-image: url('./asset9.png');
+    position: fixed;
+    z-index:20;
+    top:3.75rem;
+    background-color: #F2F5FA;
+    left: 0;
+    right: 0;
 }
 .profile{
     display:flex;
