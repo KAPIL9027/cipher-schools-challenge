@@ -72,8 +72,8 @@
 }
 
 .overlay1{
-    position: absolute;
-    z-index: 100;
+    position: fixed;
+    z-index: 101;
     left:0;
     top:0;
     width: 100vw;
