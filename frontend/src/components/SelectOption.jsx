@@ -3,19 +3,16 @@ import './SelectOption.css';
 function SelectOption({title,values}) {
   return (
     <div className="selection">
-    <h4 className="selection-title">{title}</h4>
-     <FormControl fullWidth>
-  <Select
-    labelId="demo-simple-select-label"
-    id="demo-simple-select"
-    value={age}
-    onChange={handleChange}
-  >
-    <MenuItem value={10}>{values.first}</MenuItem>
-    <MenuItem value={20}>{values.second}</MenuItem>
-    <MenuItem value={30}>{values.third}</MenuItem>
-  </Select>
-</FormControl>
+    <label className="selection-title" htmlFor={title}>{title}</label>
+    <div className="selection__input">
+    <select name={title} id={title}>
+  {
+    values.map((value) => (
+      <option key={value} className="select-option" id={value} value={value}>{value}</option>
+    ))
+  }
+</select>
+    </div>
     </div>
   )
 }

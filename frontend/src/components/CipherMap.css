@@ -1,0 +1,12 @@
+.cipher-map-info {
+    margin: 0 4rem;
+    padding-bottom: 1.6rem;
+    border-bottom: 1px solid lightgray;
+}  
+
+.cipher-map{
+    
+    transform: scale(0.8);
+}
+
+

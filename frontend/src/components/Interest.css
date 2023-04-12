@@ -1,15 +1,15 @@
-.personal-info {
+.interest-info {
     margin: 0 4rem;
     padding-bottom: 1.6rem;
     border-bottom: 1px solid lightgray;
 }   
-.personal-top{
+.interest-top{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
  
-.personal-btn{
+.interest-btn{
     border-radius: 5px;
     border: none;
     color: white;
@@ -19,12 +19,20 @@
     cursor: pointer;
 }
 
-.personal-btn:hover{
+.interest-btn:hover{
     background-color: #f4a352;
 }
-.personal-bottom{
+.interest-bottom{
     display: flex;
-    gap: 1rem;
-
+    gap: 0.5rem;
     flex-wrap: wrap;
 }
+
+.interest{
+    background-color: rgba(255, 158, 84, 0.1);
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    color: orange;
+}
+

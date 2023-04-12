@@ -1,0 +1,25 @@
+.selection{
+    display: flex;
+    flex-direction: column;
+}
+
+.selection__input{
+    width: 40rem;
+    height: 2rem;
+    background-color: white;
+    padding: 0.25rem;
+    border-radius: 10px;
+}
+
+select{
+    width: 100%;
+    height: 100%;
+    color: gray;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.selection-title{
+    margin-bottom: 1rem;
+}

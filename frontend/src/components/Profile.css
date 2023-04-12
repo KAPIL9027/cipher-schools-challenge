@@ -57,3 +57,141 @@
     #fff);
     padding: 1rem;
 }
+
+.update-input{
+    background: none;
+    background-color: #F2F5FA;
+    outline: none;
+    border:none;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.profile-update-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.profile-user-update-top{
+    display: flex;
+    justify-content: space-between;
+    flex: 0.1;
+    align-items: center;
+    width: 100%;
+}
+.profile-user-update-bottom{
+    display: flex;
+    width: 100%;
+    flex: 0.8;
+}
+.profile-user-update-left{
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-user-update-right{
+    flex:0.7;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+    align-items: center;
+}
+
+.overlay{
+    position: absolute;
+    z-index: 100;
+    left:0;
+    top:0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.not-show{
+    display: none;
+}
+.profile-logo1{
+    min-width: 150px;
+    min-height: 150px;
+}
+.profile-avatar-big{
+    min-width: 150px;
+    min-height: 150px;
+    z-index: -10;
+    margin-bottom: -20px;
+}
+.profile-user-update{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    width: 45rem;
+    height: 27rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    z-index: 10;
+    background-color: white;
+}
+
+.update-btns{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1rem;
+}
+.update-btn{
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.update-btn:hover{
+    background-color: rgb(253, 191, 75);
+}
+.cancel{
+    background-color: black;
+}
+.cancel:hover{
+    background-color: #364059;
+}
+
+.update-edit{
+    color: black !important;
+    background-color: white !important;
+}
+
+.profile-update-heading{
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.cross{
+    width: 0.7rem;
+    border-radius: 50%;
+    padding: 0 0.3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cross:hover{
+    background-color: #F2F5FA;
+    color: black;
+}
+
+

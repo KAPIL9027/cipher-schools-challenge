@@ -1,0 +1,135 @@
+.security-info {
+    margin: 0 4rem;
+    padding-bottom: 1.6rem;
+    border-bottom: 1px solid lightgray;
+}   
+.security-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.security-btn{
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #f3912e;
+    height: 1.75rem;
+    width: 5rem;
+    cursor: pointer;
+}
+
+.security-btn:hover{
+    background-color: #f4a352;
+}
+.security-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.security__input__container{
+    width: 100%;
+    height: 2rem;
+    border-radius: 10px;
+    padding: 0.25rem;
+    background-color: white;
+}
+
+.inputPassword{
+    width: 100%;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.password{
+    color: gray;
+}
+
+.update-input{
+    background: none;
+    background-color: #F2F5FA;
+    outline: none;
+    border:none;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.password-update-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.overlay1{
+    position: absolute;
+    z-index: 100;
+    left:0;
+    top:0;
+    width: 100vw;
+    height: 100vh;
+    overflow: none;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.not-show{
+    display: none;
+}
+
+
+.password-user-update{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    width: 30rem;
+    height: 20rem;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    z-index: 10;
+    background-color: white;
+}
+
+.update-btns{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1rem;
+}
+.update-btn{
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.update-btn:hover{
+    background-color: rgb(253, 191, 75);
+}
+.cancel{
+    background-color: black;
+}
+.cancel:hover{
+    background-color: #364059;
+}
+
+.update-edit{
+    color: black !important;
+    background-color: white !important;
+}
+
+
+

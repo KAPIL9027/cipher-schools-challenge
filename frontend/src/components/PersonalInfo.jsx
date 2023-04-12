@@ -9,7 +9,8 @@ function PersonalInfo() {
             <button className="personal-btn">Edit</button>
         </div>
         <div className="personal-bottom">
-         {/* <SelectOption title="Highest Education" values={["Primary","Secondary","Higher Secondary","Graduation","Post Graduation"]}/> */}
+         <SelectOption title="Highest Education" values={["Primary","Secondary","Higher Secondary","Graduation","Post Graduation"]}/>
+         <SelectOption title="What do you do currently?" values={["Schooling","College Student","Teaching","Job","FreeLancing"]}/>
         </div>
     </div>
   )
