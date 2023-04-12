@@ -35,4 +35,55 @@
     border-radius: 5px;
     color: orange;
 }
+.overlay2{
+    position: fixed;
+    z-index: 101;
+    left:0;
+    top:0;
+    width: 100vw;
+    height: 100vh;
+    overflow: none;
+    background-color: rgba(0,0,0,0.3);
+}
 
+.user-interests{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    gap: 1rem;
+    top: 20%;
+    left: 35%;
+    width: 30rem;
+    height: 20rem;
+    padding: 2rem 2rem;
+    border-radius: 1rem;
+    z-index: 10;
+    background-color: white;
+}
+
+.interests-top{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.user-interest{
+   background-color: #F2F5FA;
+   cursor: pointer;
+   width: 12.5rem;
+   padding: 0.7rem;
+   border-radius: 5px;
+}
+
+.selected{
+ background-color: #f3912e;
+ color: white;
+}
+.interests-bottom{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+}
