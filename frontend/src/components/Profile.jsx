@@ -1,8 +1,11 @@
-import React from 'react';
+import {useState,useEffect,React} from 'react';
 import './Profile.css';
 import { Avatar } from '@mui/material';
 import EditOutlinedIcon from '@mui/icons-material/EditOutlined';
 function Profile() {
+  const [firstName,setFirstName] = useState('');
+  const [lastName,setLastName] = useState('');
+  const [email,setEmail] = useState('');
 
   const onClick = (e)=>{
      const overlay = document.querySelector('.overlay');
@@ -27,18 +30,19 @@ function Profile() {
          </div> 
         </div>
         <div className="profile-user-update-right">
-          <form className="profile-update-form" onSubmit={(e)=> {e.preventDefault()}}>
+          <form className="profile-update-form" method="GET" action="http://localhost:8080/api/login?_method=PUT"onSubmit={(e)=> {e.preventDefault();}}>
             <div className="firstname field">
             <label htmlFor="first" className="update-label">First Name</label>
-            <input placeholder="First Name" type="text" className="update-input" name="first" id="first" />
+            <input placeholder="First Name" onChange={(e)=> {setFirstName(e.target.value)}}type="text" className="update-input" name="firstname" id="first" value={firstName}
+            />
             </div>
             <div className="lastname field">
-            <label htmlFor="last" className="update-label">Last Name</label>
-            <input placeholder="Last Name"type="text" className="update-input" name="last" id="last" />
+            <label htmlFor="last"  className="update-label">Last Name</label>
+            <input placeholder="Last Name"onChange={(e)=> {setLastName(e.target.value)}} type="text" className="update-input" name="lastname" id="last" value={lastName}/>
             </div>
             <div className="emailaddress field">
             <label htmlFor="email" className="update-label">Email Address</label>
-            <input placeholder="Email Address" type="email" className="update-input" name="email" id="email" />
+            <input placeholder="Email Address"  type="email" className="update-input" name="email" id="email"  disabled/>
             </div>
             <div className="mobilenumber field">
             <label htmlFor="mobile" className="update-label">Mobile Number</label>
@@ -64,12 +68,12 @@ function Profile() {
          </div>
          <div className="profile-text">
             <p className="text">Hello,</p>
-            <h1 className="user-name">Kapil.</h1>
-            <p className="text email">sharmaakapil01@gmail.com</p>
+            <h1 className="user-name">{firstName !== '' ? firstName : 'Kapil'}</h1>
+            <p className="text email">{email !== '' ? email : 'sharmaakapil01@gmail.com'}</p>
          </div>
         </div>
         <div className="profile-right">
-         <p className="followers">0 Followers</p>
+         <p className="followers">4 Followers</p>
         </div>
     </div> 
     </div>
