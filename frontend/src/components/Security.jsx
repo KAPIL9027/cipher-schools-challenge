@@ -39,7 +39,7 @@ function Security() {
     <div className="security-bottom">
        <label htmlFor="password"className="password-label">Password</label>
       <div className="security__input__container">
-        <input className="inputPassword" name="password" type="password" placeholder='1234567890'/>
+        <input className="inputPassword" name="password" type="password" value="1234567891011121314151617"/>
       </div>
     </div>
 </div>

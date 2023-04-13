@@ -1,7 +1,7 @@
 import React from 'react';
 import './Dashboard.css';
 import About from './About';
-import CipherMap from './CipherMap';
+import CipherMap from './CipherMap.jsx';
 import Web from './Web';
 import PersonalInfo from './PersonalInfo.jsx';
 import Security from './Security';
