@@ -2,7 +2,8 @@
 # Cipher-Schools-Profile-Page
 I have completed all the frontend tasks, but unfortunately, I was unable to finish the backend due to a shortage of time. However, I can complete it within the next two days. I have created the REST API and have successfully implemented the login, register, and update profile endpoints. Connecting the frontend and backend is taking me more time as I have encountered some errors, but I need more time to figure them out. I have included screenshots of the completed parts and a deployment link to the gh-pages of the frontend for you to review my work.
 
-
+## Live Link(Frontend Only)
+https://kapil9027.github.io/cipher-schools-challenge/
 
 ## Tech Stack
 
