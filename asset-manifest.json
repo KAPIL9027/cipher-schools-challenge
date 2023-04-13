@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.2061e81d.css",
-    "main.js": "/static/js/main.5843e2fa.js",
-    "static/media/asset9.png": "/static/media/asset9.e525f2d51356332792cb.png",
-    "static/media/asset0.png": "/static/media/asset0.3b571d743ffedc84d039.png",
-    "static/media/asset1.svg": "/static/media/asset1.1caa87d88b88c0d4b4ee24fdd5b1db3f.svg",
-    "index.html": "/index.html",
-    "main.2061e81d.css.map": "/static/css/main.2061e81d.css.map",
-    "main.5843e2fa.js.map": "/static/js/main.5843e2fa.js.map"
+    "main.css": "/cipher-schools-challenge/static/css/main.cd164cd5.css",
+    "main.js": "/cipher-schools-challenge/static/js/main.b7d87b2e.js",
+    "static/media/asset9.png": "/cipher-schools-challenge/static/media/asset9.e525f2d51356332792cb.png",
+    "static/media/asset0.png": "/cipher-schools-challenge/static/media/asset0.3b571d743ffedc84d039.png",
+    "static/media/asset1.svg": "/cipher-schools-challenge/static/media/asset1.1caa87d88b88c0d4b4ee24fdd5b1db3f.svg",
+    "index.html": "/cipher-schools-challenge/index.html",
+    "main.cd164cd5.css.map": "/cipher-schools-challenge/static/css/main.cd164cd5.css.map",
+    "main.b7d87b2e.js.map": "/cipher-schools-challenge/static/js/main.b7d87b2e.js.map"
   },
   "entrypoints": [
-    "static/css/main.2061e81d.css",
-    "static/js/main.5843e2fa.js"
+    "static/css/main.cd164cd5.css",
+    "static/js/main.b7d87b2e.js"
   ]
 }
